@@ -1,0 +1,198 @@
+#full{
+  margin-left:10px;
+}
+p{
+  color: white; 
+  font-size: 35px; 
+  font-family:Baskerville Old Face;
+}
+h2{
+  color: goldenrod;
+   font-size: 50px; 
+   font-family: Baskerville Old Face; 
+   margin-top: 60px;
+}
+h1{color: white; 
+  font-size: 25px; 
+  font-family: Baskerville Old Face;
+}
+h5{color: white;
+   font-size: 25px; 
+   font-family: Baskerville Old Face;
+}
+h3{
+  color: white;
+   font-size: 20px;
+    font-family: Baskerville Old Face;
+}
+button{
+  background-color: crimson;
+   font-size: 20px;
+    height: auto;
+     width: auto;
+}
+body{
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;    
+}
+div{
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.a{
+    background-color:white;
+    display: inline-flex;
+    margin-top: 20px;
+    height: 250px;
+    width:95%
+}
+nav ul li a:hover,.d:hover{
+color: cadetblue;
+background-color: black;
+}
+.c:hover{
+    color: rgb(65, 17, 4);
+font-size: 45px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    font-size: 30px;
+    font-display: 10px;
+}
+nav ul{
+    list-style: none; 
+    margin-left: 190px;
+    margin-top: 80px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.f,.h,.j,.l{
+    background-color: black;
+    display: inline-flex;
+}
+.g,.i,.k,.m{
+    display: inline-flex;
+background-color: black;
+border: 3px solid goldenrod;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(41, 64, 65);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ab{
+width: 100%;
+height: 50px;
+background-color: white;
+font-family: Baskerville Old Face;
+color: crimson;
+text-align: center;
+border: 5px transparent gold;
+margin-right: 30px;
+border-radius: 4px;
+}
+.bhk{
+color: white;
+height: auto;
+border: 4px solid goldenrod;
+border-radius: 5px;
+}
+
+.bh{
+    color: white;
+height: auto;
+border: 4px solid goldenrod;
+border-radius: 5px;
+width: 50%;
+}
+
+
+.prices{
+    display: inline-flex;
+    width: 90%;
+   
+}
+#contact{
+    background: var(--main-color);
+  }
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+    padding: 20px 0;
+  }
+  .list{
+    width: 25%;
+  }
+  .list{
+    width: 25%;
+  }
+  .list h4{
+    font-size: 21px;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .list h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: -10px;
+    background: var(--bg-color);
+  }
+  .list ul li:not(:last-child){
+    margin-bottom: 16px;
+  }
+  .list ul li a{
+    color: #ffffffbf;
+    font-size: var(--p-font);
+    display: block;
+    transition: .3s;
+  }
+  .list ul li a:hover{
+    color: var(--bg-color);
+    transform: translateY(14px);
+  }
+  .list .social a{
+    height: 40px;
+    width: 40px;
+    background: var(--bg-color);
+    color: var(--main-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    border-radius: 15px;
+    transition: .3s;
+    margin-right: 10px;
+  }
+  .list .social a:hover{
+    transform: scale(1.1);
+  }
+  .end-text{
+    text-align: center;
+    padding-top: 90px;
+  }
+  .end-text p{
+    color: var(--bg-color);
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+
